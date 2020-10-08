@@ -1,0 +1,110 @@
+/* body {
+    background-image: url(./Imagens/fundo_teste.png);
+    background-attachment: fixed;
+    background-position: left;
+    background-size: auto;
+    background-repeat: no-repeat;
+}*/
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 153, 153);
+    background-image: url(./Imagens/fundo.png);
+    
+}
+
+.container {
+
+    width: 720px;
+    margin: 0 auto;
+    
+
+}
+
+
+.texto-header {
+    
+    background-image: url(./Imagens/banner_topo.jpg);
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: linen;
+    margin-bottom: 5px;
+    background-color: rgb(13, 27, 68);
+    
+
+}
+
+.menu-lateral {
+    
+    background-color: rgb(27, 43, 90);
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: seashell;
+}
+
+.menu-lateral ul {
+
+    list-style-type: none;
+}
+
+.menu-lateral a {
+
+    text-decoration: none;
+    color: seashell;
+}
+
+.corpo {
+
+    width: 520px;
+    text-align: center;
+    float: right;
+}
+
+
+.expandir {
+    background-color: rgb(27, 43, 90);
+    color: seashell;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 2px;
+
+  }
+  
+  .active, .expandir:hover {
+    background-color: rgba(13, 27, 68);
+  }
+  
+  .conteudo {
+    padding: 0 18px;
+    display: relative;
+    overflow: hidden;
+    background-color: rgb(27, 43, 90);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    text-align: left;
+    color: seashell;
+
+  }
+
+  #rodape {
+
+    background-color: rgb(27, 43, 90);
+    text-align: center;
+    padding: 5px;
+    clear: both;
+    color: seashell;
+  }
+
+
+
+
