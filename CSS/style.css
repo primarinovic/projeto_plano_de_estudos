@@ -1,16 +1,8 @@
-/* body {
-    background-image: url(./Imagens/fundo_teste.png);
-    background-attachment: fixed;
-    background-position: left;
-    background-size: auto;
-    background-repeat: no-repeat;
-}*/
-
 body {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(255, 153, 153);
-    background-image: url(./Imagens/fundo.png);
+    background-image: url(../Imagens/fundo.png);
     
 }
 
@@ -25,7 +17,7 @@ body {
 
 .texto-header {
     
-    background-image: url(./Imagens/banner_topo.jpg);
+    background-image: url(../Imagens/banner_topo.jpg);
     height: 100px;
     text-align: center;
     line-height: 100px;
@@ -104,7 +96,3 @@ body {
     clear: both;
     color: seashell;
   }
-
-
-
-
